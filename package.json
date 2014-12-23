@@ -1,23 +1,43 @@
 {
-  "name":         "upbeat",
-  "description":  "Fast health and performance monitoring with process handling",
-  "keywords":     ["javascript", "performance", "health", "monitoring", "monit", "haproxy", "forever", "process", "systems"],
-  "author":       "Jeff Su <me@jeffsu.com>",
-  "version":      "0.2.3-pre13",
-  "licenses":     [{ "type": "MIT" }],
-  "engines":      { "node":  ">=0.5.0" },
-  "directories" : { "lib" : "./lib/upbeat" },
-  "main" : "./lib/upbeat/index",
-  "bin":   { "upbeat": "./bin/upbeat" },
-  "dependencies": {
-    "express":     ">=3.3.4",
-    "jade":        ">=0.32.0",
-    "mochiscript": ">=0.6.16",
-    "js-yaml":     ">=2.1.0",
-    "tempo":       ">=0.2.7",
-    "winston":     "*"
+  "name": "upbeat",
+  "description": "Fast health and performance monitoring with process handling",
+  "keywords": [
+    "javascript",
+    "performance",
+    "health",
+    "monitoring",
+    "monit",
+    "haproxy",
+    "forever",
+    "process",
+    "systems"
+  ],
+  "author": "Jeff Su <me@jeffsu.com>",
+  "version": "0.2.3-pre13",
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "engines": {
+    "node": ">=0.5.0"
   },
-  "repository":   {
+  "directories": {
+    "lib": "./lib/upbeat"
+  },
+  "main": "./lib/upbeat/index",
+  "bin": {
+    "upbeat": "./bin/upbeat"
+  },
+  "dependencies": {
+    "express": "3.3.4",
+    "jade": "0.32.0",
+    "js-yaml": "2.1.0",
+    "mochiscript": "0.6.16",
+    "tempo": "0.2.7",
+    "winston": "0.8.3"
+  },
+  "repository": {
     "type": "git",
     "url": "git://github.com/jeffsu/upbeat.git"
   }
